@@ -1,0 +1,6 @@
+{
+  "intents": [
+    	{ "intent": "OrderIntent", "slots":[{"name": "Order",  "type": "ORDER_TYPE"}]},
+    	{ "intent": "GeneralIntent", "slots":[{"name": "General", "type": "GENERAL_QUERY"}]}
+    ]
+}
