@@ -1,3 +1,2 @@
-GeneralIntent {General}
-GeneralIntent hello
-OrderIntent Order {Order}
+OrderIntent order {Order}
+AboutIntent hello

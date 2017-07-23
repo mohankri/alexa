@@ -1,5 +1,6 @@
 {
   "intents": [
-    	{ "intent": "AboutIntent"}
+    	{ "intent": "AboutIntent"},
+	{ "intent": "OrderIntent", "slots":[ {"name": "Order", "type": "ORDER_TYPE"}]}
     ]
 }
