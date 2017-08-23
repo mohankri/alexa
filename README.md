@@ -10,3 +10,8 @@ node index.js
 ```
 zip -r ../src.zip .
 ```
+
+# Upload
+```
+upload src.zip to AWS Lamda @ console.aws.amazon.com
+```
