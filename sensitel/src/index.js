@@ -33,7 +33,12 @@ var handlers = {
 	//console.log('item  = ' + item);
 	if (item) {
 		//console.log('item  found = ' + item);
-		var result = item + itemName + " is completed";
+		var status = " is not completed";
+		var flag = Math.floor((Math.random() * 2));
+		if (flag) {
+			status = " is completed";
+		}
+		var result = item + itemName + status;
 		this.attributes['speechOutput'] = result;
 		this.attributes['repromptSpeech'] = this.t("SENSITEL_REPEAT_MESSAGE");
 		this.emit(':tellWithCard', this.attributes['speechOutput'], 
